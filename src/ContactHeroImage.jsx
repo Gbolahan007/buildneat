@@ -1,7 +1,7 @@
 function ContactHeroImage() {
   return (
     <div>
-      <div className="relative h-[500px] w-screen overflow-hidden">
+      <div className="relative h-[600px] w-screen overflow-hidden">
         <img
           src="/contactlogo.webp"
           className="h-full w-full object-cover"
