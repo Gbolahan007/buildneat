@@ -3,7 +3,7 @@ import { GoMail } from 'react-icons/go';
 
 function ContactInfo() {
   return (
-    <div className="mx-3 w-full rounded-lg bg-white p-6 shadow-lg">
+    <div className="mx-3 w-full rounded-lg border border-emerald-600 bg-white p-6 shadow-lg">
       <div className="space-y-4">
         {/* Email Section */}
         <div className="rounded-lg border bg-blue-50 p-4 transition-colors duration-200 hover:bg-blue-100">
