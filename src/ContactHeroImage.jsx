@@ -9,7 +9,7 @@ function ContactHeroImage() {
         />
 
         <div className="absolute left-6 top-1/2 -translate-y-1/2 bg-primary bg-opacity-50 px-8 py-16 font-mono text-white lg:translate-x-10">
-          <h1 className="text-5xl sm:text-7xl">Contact Us</h1>
+          <h1 className="text-5xl sm:text-7xl">Contact</h1>
         </div>
       </div>
     </div>
