@@ -27,7 +27,7 @@ function Contact() {
   );
   return (
     <div>
-      <div className="min-h-screen bg-white">
+      <div className="bg-white">
         {/* Hero section */}
         <Suspense fallback={<HeroFallback />}>
           <ContactHeroImage />
