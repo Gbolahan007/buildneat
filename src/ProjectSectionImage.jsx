@@ -33,8 +33,6 @@ const projects = [
   '/construction9.webp',
   '/construction10.webp',
   '/constructionNew1.webp',
-  '/constructionNew2.webp',
-  '/constructionNew3.webp',
   '/constructionNew4.webp',
   '/constructionNew5.webp',
   '/constructionNew6.webp',
