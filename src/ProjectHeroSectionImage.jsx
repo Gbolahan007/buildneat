@@ -3,7 +3,7 @@ function ProjectHeroSectionImage() {
     <div>
       <div className="relative h-[600px] w-screen overflow-hidden">
         <img
-          src="/public/project/renovation1.webp"
+          src="/renovation1.webp"
           className="h-full w-full object-cover"
           alt="About-Us"
         />

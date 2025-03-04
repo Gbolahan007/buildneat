@@ -2,7 +2,7 @@ function AboutUsImage() {
   return (
     <div className="relative h-[600px] w-screen overflow-hidden">
       <img
-        src="/public/project/pop3.webp"
+        src="/pop3.webp"
         className="h-full w-full object-cover"
         alt="About-Us"
       />

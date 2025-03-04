@@ -3,17 +3,17 @@ import ServicesProjectItem from './ServicesProjectItem';
 
 const projects = [
   {
-    src: '/project/construction.webp',
+    src: '/construction.webp',
     title: 'Building Construction & Concrete Works',
   },
-  { src: '/project/pop2.webp', title: 'POP Ceiling & Decorative Finishes' },
+  { src: '/pop2.webp', title: 'POP Ceiling & Decorative Finishes' },
   { src: '/project/stairs1.webp', title: 'Tiling & Flooring Solutions' },
   {
-    src: '/project/construction2.webp',
+    src: '/construction2.webp',
     title: 'Renovation & Remodeling Services',
   },
-  { src: '/project/finishing1.webp', title: 'Painting & Wall Finishes' },
-  { src: '/project/finishing6.webp', title: 'Material Procurement' },
+  { src: '/finishing1.webp', title: 'Painting & Wall Finishes' },
+  { src: '/finishing6.webp', title: 'Material Procurement' },
 ];
 
 function ServicesSectionproject() {

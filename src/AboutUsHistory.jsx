@@ -11,7 +11,7 @@ function AboutUsHistory() {
         {/* CEO Image */}
         <div className="mx-auto w-[300px]">
           <img
-            src="/public/project/CEO.webp"
+            src="/CEO.webp"
             alt="CEO Adepoju Bankole"
             className="h-auto w-full rounded shadow-lg"
           />

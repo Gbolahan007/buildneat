@@ -2,7 +2,7 @@ function ServicesImage() {
   return (
     <div className="relative h-[600px] w-screen overflow-hidden">
       <img
-        src="/public/project/finishing1.webp"
+        src="/finishing1.webp"
         className="h-full w-full object-cover"
         alt="About-Us"
       />
