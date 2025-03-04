@@ -7,7 +7,7 @@ const projects = [
     title: 'Building Construction & Concrete Works',
   },
   { src: '/pop2.webp', title: 'POP Ceiling & Decorative Finishes' },
-  { src: '/project/stairs1.webp', title: 'Tiling & Flooring Solutions' },
+  { src: '/stairs1.webp', title: 'Tiling & Flooring Solutions' },
   {
     src: '/construction2.webp',
     title: 'Renovation & Remodeling Services',
