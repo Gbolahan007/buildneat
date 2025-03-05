@@ -13,12 +13,15 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route element={<AppLayout />}>
-          <Route index element={<Navigate replace to="home" />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/services" element={<Services />} />
+          <Route
+            index
+            element={<Navigate replace to="best-construction-company" />}
+          />
+          <Route path="/best-construction-company" element={<Home />} />
+          <Route path="/about-construction-company" element={<About />} />
+          <Route path="/contact-construction-experts" element={<Contact />} />
+          <Route path="/our-construction-projects" element={<Projects />} />
+          <Route path="/construction-services" element={<Services />} />
         </Route>
       </Routes>
     </BrowserRouter>

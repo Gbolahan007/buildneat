@@ -4,7 +4,7 @@ const StickyButton = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate('/contact');
+    navigate('/contact-construction-experts');
   };
 
   return (

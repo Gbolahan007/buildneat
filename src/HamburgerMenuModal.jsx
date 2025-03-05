@@ -4,6 +4,13 @@ import { useNavigate } from 'react-router-dom';
 
 function HamburgerMenuModal({ isOpenModal, setIsOpenModal }) {
   const navigate = useNavigate();
+
+  // Function to handle navigation and close modal
+  const handleNavigation = (path) => {
+    navigate(path);
+    setIsOpenModal(false);
+  };
+
   return (
     <div>
       {isOpenModal && (
@@ -14,62 +21,59 @@ function HamburgerMenuModal({ isOpenModal, setIsOpenModal }) {
             onClick={() => setIsOpenModal(false)}
           ></motion.div>
 
-          {/* Sidebar */}
+          {/* Sidebar Menu */}
           <motion.div
             initial={{ x: '100%' }}
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
             transition={{ ease: 'easeInOut', duration: 0.5 }}
-            className="font-oswald text-custom-black fixed right-0 top-0 z-[1000] h-screen w-80 bg-white p-2 px-3"
+            className="font-oswald text-custom-black fixed right-0 top-0 z-[1000] h-screen w-80 bg-white p-4 shadow-lg"
           >
             {/* Close Button */}
-
-            <div className="cursor-pointer px-2 pb-5">
-              <HiOutlineXMark onClick={() => setIsOpenModal(false)} size={24} />
+            <div className="flex justify-end">
+              <button
+                onClick={() => setIsOpenModal(false)}
+                aria-label="Close menu"
+                className="rounded-md p-2 transition hover:bg-gray-200"
+              >
+                <HiOutlineXMark size={24} />
+              </button>
             </div>
 
             {/* Menu Items */}
-            <ul className="flex flex-col gap-3 p-2 px-3">
+            <ul className="mt-4 flex flex-col gap-4">
               <li>
                 <button
-                  onClick={() => {
-                    navigate('/about');
-                    setIsOpenModal(false);
-                  }}
-                  className="pb-2 uppercase hover:underline"
+                  onClick={() =>
+                    handleNavigation('/about-construction-company')
+                  }
+                  className="block w-full pb-2 uppercase transition hover:text-yellow-600"
                 >
-                  About
+                  About Us
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => {
-                    navigate('/projects');
-                    setIsOpenModal(false);
-                  }}
-                  className="pb-2 uppercase hover:underline"
+                  onClick={() => handleNavigation('/our-construction-projects')}
+                  className="block w-full pb-2 uppercase transition hover:text-yellow-600"
                 >
-                  Project
+                  Projects
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => {
-                    navigate('/services');
-                    setIsOpenModal(false);
-                  }}
-                  className="pb-2 uppercase hover:underline"
+                  onClick={() => handleNavigation('/construction-services')}
+                  className="block w-full pb-2 uppercase transition hover:text-yellow-600"
                 >
                   Services
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => {
-                    navigate('/contact');
-                    setIsOpenModal(false);
-                  }}
-                  className="pb-2 uppercase hover:underline"
+                  onClick={() =>
+                    handleNavigation('/contact-construction-experts')
+                  }
+                  className="block w-full pb-2 uppercase transition hover:text-yellow-600"
                 >
                   Contact
                 </button>

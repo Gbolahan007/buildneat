@@ -1,4 +1,5 @@
 import { lazy, Suspense } from 'react';
+import { Helmet } from 'react-helmet-async'; // Import Helmet
 import StickyButton from './StickyButton';
 
 // Lazy load components
@@ -49,6 +50,17 @@ const SectionFallback = () => (
 function Home() {
   return (
     <div className="min-h-screen bg-white">
+      {/* SEO Metadata */}
+      <Helmet>
+        <title>
+          Best Construction Company in Lagos – Quality Home Builders
+        </title>
+        <meta
+          name="description"
+          content="Looking for a trusted construction company in New York? We offer home building, renovations, and commercial construction services. Get a free quote today!"
+        />
+      </Helmet>
+
       {/* Hero section */}
       <Suspense fallback={<HeroFallback />}>
         <HeroSection />
