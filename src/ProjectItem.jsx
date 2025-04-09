@@ -8,7 +8,7 @@ function ProjectItem({ project }) {
 
   return (
     <motion.div
-      onClick={() => navigate('/projects')}
+      onClick={() => navigate('/our-construction-projects')}
       className="relative h-64 w-full cursor-pointer overflow-hidden rounded-xl shadow-lg sm:h-72 md:h-80"
       whileHover={{ scale: 1.05 }}
       onMouseEnter={() => setIsHovering(true)}
