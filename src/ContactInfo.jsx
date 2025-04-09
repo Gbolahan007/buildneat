@@ -22,7 +22,6 @@ function ContactInfo() {
             </div>
           </div>
         </div>
-
         {/* Phone Section */}
         <div className="rounded-lg border bg-green-50 p-4 transition-colors duration-200 hover:bg-green-100">
           <div className="flex items-center gap-4">
@@ -32,10 +31,10 @@ function ContactInfo() {
             <div>
               <h3 className="text-lg font-semibold text-gray-800">Phone</h3>
               <a
-                href="tel:+234 708 116 8630"
+                href="tel:+234 916 000 5410"
                 className="text-green-600 hover:underline"
               >
-                +234 708 116 8630
+                +234 916 000 5410
               </a>
             </div>
           </div>

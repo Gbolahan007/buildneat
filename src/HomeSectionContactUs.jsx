@@ -1,6 +1,6 @@
 function HomeSectionContactUs() {
-  // WhatsApp number with country code
-  const phoneNumber = '+2347081168630';
+  // Corrected WhatsApp number format (no + or spaces)
+  const phoneNumber = '2349160005410';
   const whatsappLink = `https://wa.me/${phoneNumber}`;
 
   return (

@@ -45,7 +45,6 @@ const HeroSection = () => {
         key={images[index].src}
         src={images[index].src}
         className="absolute h-full w-full"
-        alt=""
         initial={{ scale: 1 }}
         animate={{ scale: zooming ? 1.3 : 1 }}
         transition={{ duration: 8, ease: 'linear' }}
