@@ -44,13 +44,12 @@ function About() {
       <Suspense
         fallback={<div className="h-40 w-full animate-pulse bg-gray-200"></div>}
       >
-        <AboutUsMissionAndVision />
+        <AboutValues />
       </Suspense>
-
       <Suspense
         fallback={<div className="h-40 w-full animate-pulse bg-gray-200"></div>}
       >
-        <AboutValues />
+        <AboutUsMissionAndVision />
       </Suspense>
     </div>
   );
