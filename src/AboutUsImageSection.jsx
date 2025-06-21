@@ -8,7 +8,7 @@ function AboutUsImageSection() {
         <div className="h-[300px] w-full overflow-hidden rounded-lg shadow-md md:h-[400px]">
           <img
             className="h-full w-full object-cover"
-            src="/finishing9.webp"
+            src="/renovation6.webp"
             alt="BuildNeatNigLtd Construction"
           />
         </div>
