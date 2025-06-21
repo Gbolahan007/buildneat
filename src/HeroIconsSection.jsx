@@ -28,7 +28,7 @@ const IconsSection = () => {
       ref={iconsRef}
       initial={{ opacity: 0 }}
       animate={iconsInView ? { opacity: 1, transition: { duration: 5 } } : {}}
-      className="my-3 mt-20 grid grid-cols-2 items-center justify-center gap-5 sm:mx-28 sm:grid-cols-4"
+      className="my-3 mb-10 mt-20 grid grid-cols-2 items-center justify-center gap-5 sm:mx-28 sm:grid-cols-4"
     >
       {icons.map((item, i) => (
         <div
