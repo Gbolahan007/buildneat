@@ -7,8 +7,6 @@ import { MdOutlineRealEstateAgent } from 'react-icons/md';
 import { TbBuildingFortress } from 'react-icons/tb';
 
 const icons = [
-  { icon: <HiOutlineHomeModern size={48} />, label: 'Renovation' },
-  { icon: <TbBuildingFortress size={48} />, label: 'Material Procurement' },
   {
     icon: <LuConstruction size={48} />,
     label: 'Building Construction and finishes',
@@ -17,6 +15,8 @@ const icons = [
     icon: <MdOutlineRealEstateAgent size={48} />,
     label: 'Real Estate Developments',
   },
+  { icon: <HiOutlineHomeModern size={48} />, label: 'Renovation' },
+  { icon: <TbBuildingFortress size={48} />, label: 'Material Procurement' },
 ];
 
 const IconsSection = () => {

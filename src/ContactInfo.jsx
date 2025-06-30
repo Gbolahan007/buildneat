@@ -39,11 +39,18 @@ function ContactInfo() {
                 >
                   +234 916 000 6285
                 </a>
+
                 <a
                   href="tel:+2347081168630"
                   className="text-green-600 hover:underline"
                 >
                   +234 708 116 8630
+                </a>
+                <a
+                  href="tel:+2348069807731"
+                  className="text-green-600 hover:underline"
+                >
+                  +234 806 980 7731
                 </a>
               </div>
             </div>
@@ -59,7 +66,7 @@ function ContactInfo() {
             <div>
               <h3 className="text-lg font-semibold text-gray-800">Address</h3>
               <p className="text-yellow-700">
-                No. 22, Bankole Close, Gboshoro, Lagos State
+                No. 22, Bankole Close, Gbosoro, Lagos State
               </p>
             </div>
           </div>
