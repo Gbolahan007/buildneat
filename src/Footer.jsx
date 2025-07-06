@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer className="mt-24 bg-slate-100 py-16 text-gray-900">
+    <footer className="mt-24 bg-slate-100 px-4 py-16 text-gray-900">
       <div className="container mx-auto flex flex-col gap-8 text-center sm:flex-row sm:justify-between sm:text-left">
         {/* Menu Links */}
         <div className="flex flex-col items-center sm:items-start">
