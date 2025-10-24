@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
@@ -13,8 +13,8 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route element={<AppLayout />}>
-          <Route index element={<Navigate replace to="/" />} />
-          <Route path="/" element={<Home />} />
+          <Route index element={<Home />} />
+
           <Route path="/about-construction-company" element={<About />} />
           <Route path="/contact-construction-experts" element={<Contact />} />
           <Route path="/our-construction-projects" element={<Projects />} />
