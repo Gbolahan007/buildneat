@@ -13,11 +13,8 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route element={<AppLayout />}>
-          <Route
-            index
-            element={<Navigate replace to="best-construction-company" />}
-          />
-          <Route path="/best-construction-company" element={<Home />} />
+          <Route index element={<Navigate replace to="/" />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about-construction-company" element={<About />} />
           <Route path="/contact-construction-experts" element={<Contact />} />
           <Route path="/our-construction-projects" element={<Projects />} />
